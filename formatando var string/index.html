@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Variavel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>oi</h1>
+    <script>
+        var nome = window.prompt('ola, qual seu nome?')
+
+        //document serve para mexer no arquivo onde esta o codigo, write escreve no local desejado
+
+        document.write(`Prazer em conhece-lo(a)! ${nome} <br/>`)// é possivel usar tags no documant
+        document.write(`seu nome tem ${nome.length} letras!`)// nome.length faz com que a quantidade de letras da variavel sejam mostadas
+    
+        //caso queria mostrar a string em MAIUSCULO altere de ${nome.length} -> ${nome.toUpperCase()}
+        //caso queria mostrar a string em minusculo altere de ${nome.length} -> ${nome.toLowerCase()}
+    </script>
+</body>
+</html>
