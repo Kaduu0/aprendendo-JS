@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="main.js" defer></script>
+</head>
+<body>
+    
+    <input type="text" placeholder="insira texto" id="txt" onblur="inserir()"> <!--  input responsavel por criar um texto e armazenar no ID-->
+    <!-- o comando onblur="nome da função faz com que ao perder foco (usuario aperta fora do elemento) ele ative alguma ação" -->
+
+    <button onclick="inserir()">clique me</button> <!-- botão responsavel por enviar o comando para o main.js -->
+
+    <div id="texto"></div> <!-- aqui será recebido o texto das ações do main.js -->
+
+</body>
+</html>
