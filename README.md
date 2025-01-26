@@ -10,3 +10,6 @@ $SIFOES$
 
 *estrelas*
 
+- traço + espaço
+
+-- traço x2
